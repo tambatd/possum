@@ -4,7 +4,7 @@ var song;
 var k = false;
 function preload() {
   img = loadImage('tenor.gif');
-    img2 = loadImage('pos.png');
+    img2 = loadImage('pos.PNG');
 
 }
 
