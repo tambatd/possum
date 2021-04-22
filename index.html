@@ -5,6 +5,12 @@
         body {
           background-color: black;
         }
+        #wrapper {
+            display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
         h1,p {
           color: red;
           font-family: 'Train One', cursive;
@@ -25,5 +31,24 @@
 </head>
 
 <body>
+<audio id="myAudio">
+  <source src="brodyquest.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<div id="wrapper">
+<button onclick="playAudio()" type="button">possum on da roomba fo today</button>
+</div>
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+  k = true;
+} 
+
+
+</script>
 </body>
 </html>
